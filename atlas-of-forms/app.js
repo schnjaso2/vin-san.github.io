@@ -251,6 +251,8 @@ angular.module('atlas')
             type: 'post',
             url: url,
             dataType: 'json',
+             header: {'Access-Control-Allow-Origin': 'http://www.atlas-of-forms.net/'},
+        crossDomain: true,
             data: {
                 'fragment': $scope.ajax.atlas_fragment,
                 'fragment_size': $scope.ajax.atlas_fragment_length
