@@ -250,7 +250,7 @@ angular.module('atlas')
         $.ajax({
             type: 'post',
             url: url,
-            dataType: 'json',
+            dataType: 'script',
              header: {'Access-Control-Allow-Origin': 'http://www.atlas-of-forms.net/'},
         crossDomain: true,
             data: {
