@@ -246,7 +246,7 @@ angular.module('atlas')
     // functions
 
     $scope.load_atlas = function () {
-        var url = 'http://atlas-of-forms.net/koken/load_atlas.php';
+        var url = 'http://www.atlas-of-forms.net/koken/load_atlas.php';
         $.ajax({
             type: 'post',
             url: url,
