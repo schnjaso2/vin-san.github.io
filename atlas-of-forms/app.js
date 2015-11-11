@@ -29,7 +29,7 @@ angular.module('atlas')
         
          
 
-    var url = 'https://atlas-of-forms.net/koken/init_atlas.php';
+    var url = 'http://atlas-of-forms.net/koken/init_atlas.php';
     $.ajax({
         type: 'post',
         url: url,
@@ -246,7 +246,7 @@ angular.module('atlas')
     // functions
 
     $scope.load_atlas = function () {
-        var url = 'https://atlas-of-forms.net/koken/load_atlas.php';
+        var url = 'http://atlas-of-forms.net/koken/load_atlas.php';
         $.ajax({
             type: 'post',
             url: url,
