@@ -7,7 +7,7 @@ html {
 
 
 body{
-  padding: 50px;
+  padding: 30px;
   margin: 0;
 }
 
@@ -79,65 +79,68 @@ img{
 
 }
 
+.standart{
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+        font-size: 30px;
+        line-height:40px;
+  letter-spacing: 2px;
+
+}
 
 .container {
   padding: 0;
   margin: 0;
   font-family:  'swiss_721black_extend', 'Helvetica Neue', Arial, sans-serif;
 
+
 text-transform: uppercase;
       letter-spacing: -4px;
 
 }
 
-.line{
-        font-size: 100px;
+.line{ font-size: 80px;
+       line-height:80px;
      display: inline-block;
         position: relative;
     margin:-3px 0px 0px 0px;
     border-bottom: 3px solid white;
      border-top: 3px solid white;
-    float:left;    line-height:100px;
+    float:left; 
     overflow:visible;
 }
 
-.outline{    font-size: 100px;
-    font-family: 'swiss_721bold', 'Helvetica Neue', Arial, sans-serif;
+.outline{        font-size: 80px;   line-height:80px;
+    font-family:    'swiss_721bold', 'Helvetica Neue', Arial, sans-serif;
     display: inline-block;
     border-bottom: 3px solid black;
      border-top: 3px solid black;
     margin:-3px 0px 0px 0px;
     position: relative;
-    float: right;    line-height:100px;
+    float: right;  
 }
 
 .image{
 
-     display: block;
+     display: inline-block;
         position: relative;
     margin:-3px 0px 0px 0px;
     border-bottom: 3px solid white;
      border-top: 3px solid white;
-    float:left;    
-    height:100px;
-    width:auto;
+    
+    height:80px;
 
+float:left;
 
     overflow:visible;
 }
 
-.standart{
-      font-family: 'Helvetica Neue', Arial, sans-serif;
-        font-size: 30px;
-            line-height:45px;
-  letter-spacing: 2px;
 
-}
 
 .logo{
-max-height:100px;
+max-height:80px;
     width:100%;
-    max-width:100px;
+    margin:0 auto;
+    max-width:150px;
 padding:0px;
  
     /*border-left: 3px solid black;
@@ -148,8 +151,8 @@ padding:0px;
 .abs{
     position: absolute;
     transform: rotate(-90deg);
-  top:30px;
-    left:0px;
+  top:15px;
+    left:-20px;
    
     
 }
