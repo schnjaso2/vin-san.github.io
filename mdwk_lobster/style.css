@@ -16,6 +16,40 @@ img{
     width:100%;
 }
 
+
+@font-face {
+    font-family: 'swiss_721black_extend';
+    src: url('swiss_721_black_extended-webfont.eot');
+    src: url('swiss_721_black_extended-webfont.eot?#iefix') format('embedded-opentype'),
+         url('swiss_721_black_extended-webfont.woff2') format('woff2'),
+         url('swiss_721_black_extended-webfont.woff') format('woff'),
+         url('swiss_721_black_extended-webfont.ttf') format('truetype'),
+         url('swiss_721_black_extended-webfont.svg#swiss_721black') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'swiss_721bold';
+    src: url('swiss_721_bold_outline-webfont.eot');
+    src: url('swiss_721_bold_outline-webfont.eot?#iefix') format('embedded-opentype'),
+         url('swiss_721_bold_outline-webfont.woff2') format('woff2'),
+         url('swiss_721_bold_outline-webfont.woff') format('woff'),
+         url('swiss_721_bold_outline-webfont.ttf') format('truetype'),
+         url('swiss_721_bold_outline-webfont.svg#swiss_721bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+
 @font-face {
     font-family: 'swiss_721black_outline';
     src: url('fonts/swiss_721_black_outline-webfont.eot');
@@ -49,7 +83,7 @@ img{
 .container {
   padding: 0;
   margin: 0;
-  font-family: 'swiss_721black', 'Helvetica Neue', Arial, sans-serif;
+  font-family:  'swiss_721black_extend', 'Helvetica Neue', Arial, sans-serif;
 
 text-transform: uppercase;
       letter-spacing: -4px;
@@ -64,16 +98,32 @@ text-transform: uppercase;
     border-bottom: 3px solid white;
      border-top: 3px solid white;
     float:left;    line-height:100px;
+    overflow:visible;
 }
 
 .outline{    font-size: 100px;
-    font-family: 'swiss_721black_outline', 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'swiss_721bold', 'Helvetica Neue', Arial, sans-serif;
     display: inline-block;
     border-bottom: 3px solid black;
      border-top: 3px solid black;
     margin:-3px 0px 0px 0px;
     position: relative;
     float: right;    line-height:100px;
+}
+
+.image{
+
+     display: block;
+        position: relative;
+    margin:-3px 0px 0px 0px;
+    border-bottom: 3px solid white;
+     border-top: 3px solid white;
+    float:left;    
+    height:100px;
+    width:auto;
+
+
+    overflow:visible;
 }
 
 .standart{
@@ -85,16 +135,21 @@ text-transform: uppercase;
 }
 
 .logo{
-    display: inline-block;
-    height:90px;
+max-height:100px;
+    width:100%;
+    max-width:100px;
+padding:0px;
+ 
+    /*border-left: 3px solid black;
+     border-right: 3px solid black;*/
 
-    width:auto;
 }
 
 .abs{
     position: absolute;
-    transform: rotate(90deg);
+    transform: rotate(-90deg);
   top:30px;
     left:0px;
+   
     
 }
