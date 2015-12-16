@@ -7,8 +7,9 @@ html {
 
 
 body{
-  padding: 30px;
+  padding: 0px;
   margin: 0;
+    overflow-x: hidden;
 }
 
 
@@ -86,6 +87,7 @@ img{
   letter-spacing: 2px;
 height:100px;
     display: inline-block;
+    text-align: center;
 }
 
 .container {
@@ -110,28 +112,34 @@ text-transform: uppercase;
     
 }
 
-.outline{        font-size: 100px;   line-height:100px;
-    font-family:    'swiss_721bold', 'Helvetica Neue', Arial, sans-serif;
-    display: inline-block;
-    border-bottom: 3px solid black;
-     border-top: 3px solid black;
-    margin:-3px 0px 0px 0px;
-    position: relative;
-    float: right;  
+.bloc{
+        display: inline-block;
+
+
+        position: relative;
 
 }
+.gauche{
+        float: left;  
+}
+
+.droite{
+        float: right;  
+}
+
+.outline{        
+    font-size: 100px;   
+    line-height:100px;
+    font-family: 'swiss_721bold', 'Helvetica Neue', Arial, sans-serif;
+  margin:-3px 0px 0px 0px;
+         border-bottom: 3px solid black;
+     border-top: 3px solid black;
+}
+
 
 .image{
-
-     display: inline-block;
-        position: relative;
     margin:3px 0px 0px 0px;
-
-    background: transparent;
     height:100px;
-
-float:left;
-
 
 }
 
@@ -141,7 +149,7 @@ float:left;
 max-height:100px;
     width:100%;
     padding:0px 20px;
-    max-width:150px;
+    max-width:190px;
 
  
     /*border-left: 3px solid black;
@@ -170,7 +178,7 @@ max-height:100px;
     position: absolute;
     transform: rotate(-90deg);
   top:0px;
-    left:-5px;
+    left:20px;
    
     
 }
