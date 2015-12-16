@@ -84,7 +84,7 @@ img{
         font-size: 30px;
         line-height:40px;
   letter-spacing: 2px;
-
+height:80px;
 }
 
 .container {
@@ -98,8 +98,8 @@ text-transform: uppercase;
 
 }
 
-.line{ font-size: 80px;
-       line-height:80px;
+.line{ font-size: 100px;
+       line-height:100px;
      display: inline-block;
         position: relative;
     margin:-3px 0px 0px 0px;
@@ -109,7 +109,7 @@ text-transform: uppercase;
     overflow:visible;
 }
 
-.outline{        font-size: 80px;   line-height:80px;
+.outline{        font-size: 100px;   line-height:100px;
     font-family:    'swiss_721bold', 'Helvetica Neue', Arial, sans-serif;
     display: inline-block;
     border-bottom: 3px solid black;
@@ -139,20 +139,28 @@ float:left;
 .logo{
 max-height:80px;
     width:100%;
-    margin:0 auto;
+    padding:0px 20px;
     max-width:150px;
-padding:0px;
+
  
     /*border-left: 3px solid black;
      border-right: 3px solid black;*/
 
 }
 
+.piece{
+    height:200px;
+
+    margin-top:-50px;
+    padding:0px 20px;
+    transform: rotate(0deg);
+}
+
 .abs{
     position: absolute;
     transform: rotate(-90deg);
-  top:15px;
-    left:-20px;
+  top:0px;
+    left:-5px;
    
     
 }
