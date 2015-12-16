@@ -85,6 +85,7 @@ img{
         line-height:40px;
   letter-spacing: 2px;
 height:100px;
+    display: inline-block;
 }
 
 .container {
@@ -102,9 +103,8 @@ text-transform: uppercase;
        line-height:100px;
      display: inline-block;
         position: relative;
-    margin:-3px 0px 0px 0px;
-    border-bottom: 3px solid transparent;
-     border-top: 3px solid transparent;
+    margin:3px 0px 0px 0px;
+
     float:left; 
     overflow:visible;
     
@@ -125,15 +125,14 @@ text-transform: uppercase;
 
      display: inline-block;
         position: relative;
-    margin:-3px 0px 0px 0px;
-    border-bottom: 3px solid transparent;
-     border-top: 3px solid transparent;
+    margin:3px 0px 0px 0px;
+
     background: transparent;
     height:100px;
 
 float:left;
 
-    overflow:visible;
+
 }
 
 
@@ -153,7 +152,7 @@ max-height:100px;
 .piece{
     height:160px;
     background: transparent;
-    margin-top:-50px;
+    margin-top:-40px;
     padding:0px 20px;
     transform: rotate(0deg);
 }
@@ -161,8 +160,9 @@ max-height:100px;
 .piece_2{    background: transparent;
     height:200px;
 
-    margin-top:-50px;
+
     padding:0px 20px;
+        margin-top:-50px;
     transform: rotate(0deg);
 }
 
