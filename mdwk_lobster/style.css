@@ -84,7 +84,7 @@ img{
         font-size: 30px;
         line-height:40px;
   letter-spacing: 2px;
-height:80px;
+height:100px;
 }
 
 .container {
@@ -103,10 +103,11 @@ text-transform: uppercase;
      display: inline-block;
         position: relative;
     margin:-3px 0px 0px 0px;
-    border-bottom: 3px solid white;
-     border-top: 3px solid white;
+    border-bottom: 3px solid transparent;
+     border-top: 3px solid transparent;
     float:left; 
     overflow:visible;
+    
 }
 
 .outline{        font-size: 100px;   line-height:100px;
@@ -117,6 +118,7 @@ text-transform: uppercase;
     margin:-3px 0px 0px 0px;
     position: relative;
     float: right;  
+
 }
 
 .image{
@@ -124,10 +126,10 @@ text-transform: uppercase;
      display: inline-block;
         position: relative;
     margin:-3px 0px 0px 0px;
-    border-bottom: 3px solid white;
-     border-top: 3px solid white;
-    
-    height:80px;
+    border-bottom: 3px solid transparent;
+     border-top: 3px solid transparent;
+    background: transparent;
+    height:100px;
 
 float:left;
 
@@ -137,7 +139,7 @@ float:left;
 
 
 .logo{
-max-height:80px;
+max-height:100px;
     width:100%;
     padding:0px 20px;
     max-width:150px;
@@ -149,6 +151,14 @@ max-height:80px;
 }
 
 .piece{
+    height:160px;
+    background: transparent;
+    margin-top:-50px;
+    padding:0px 20px;
+    transform: rotate(0deg);
+}
+
+.piece_2{    background: transparent;
     height:200px;
 
     margin-top:-50px;
