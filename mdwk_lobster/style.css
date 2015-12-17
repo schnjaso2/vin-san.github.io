@@ -8,7 +8,7 @@ html {
 
 body{
   padding: 0px;
-  margin: 0;
+  margin:50px 0;
     overflow-x: hidden;
 }
 
@@ -85,9 +85,10 @@ img{
         font-size: 30px;
         line-height:40px;
   letter-spacing: 2px;
-height:100px;
+height:80px;
     display: inline-block;
     text-align: center;
+    padding:10px;
 }
 
 .container {
@@ -140,7 +141,8 @@ text-transform: uppercase;
 .image{
     margin:3px 0px 0px 0px;
     height:100px;
-
+overflow: visible;
+    width:auto;
 }
 
 
@@ -160,7 +162,7 @@ max-height:100px;
 .piece{
     height:160px;
     background: transparent;
-    margin-top:-40px;
+    margin:-40px 0;
     padding:0px 20px;
     transform: rotate(0deg);
 }
@@ -170,7 +172,8 @@ max-height:100px;
 
 
     padding:0px 20px;
-        margin-top:-50px;
+        margin:-63px 0;
+
     transform: rotate(0deg);
 }
 
@@ -178,7 +181,7 @@ max-height:100px;
     position: absolute;
     transform: rotate(-90deg);
   top:0px;
-    left:20px;
+    left:0px;
    
     
 }
