@@ -1,0 +1,193 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+body{
+  padding: 0px;
+  margin:50px 0;
+    overflow-x: hidden;
+}
+
+
+img{
+    width:100%;
+}
+
+
+@font-face {
+    font-family: 'swiss_721black_extend';
+    src: url('fonts/swiss_721_black_extended-webfont.eot');
+    src: url('fonts/swiss_721_black_extended-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/swiss_721_black_extended-webfont.woff2') format('woff2'),
+         url('fonts/swiss_721_black_extended-webfont.woff') format('woff'),
+         url('fonts/swiss_721_black_extended-webfont.ttf') format('truetype'),
+         url('fonts/swiss_721_black_extended-webfont.svg#swiss_721black') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'swiss_721bold';
+    src: url('fonts/swiss_721_bold_outline-webfont.eot');
+    src: url('fonts/swiss_721_bold_outline-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/swiss_721_bold_outline-webfont.woff2') format('woff2'),
+         url('fonts/swiss_721_bold_outline-webfont.woff') format('woff'),
+         url('fonts/swiss_721_bold_outline-webfont.ttf') format('truetype'),
+         url('fonts/swiss_721_bold_outline-webfont.svg#swiss_721bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+
+@font-face {
+    font-family: 'swiss_721black_outline';
+    src: url('fonts/swiss_721_black_outline-webfont.eot');
+    src: url('fonts/swiss_721_black_outline-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/swiss_721_black_outline-webfont.woff2') format('woff2'),
+         url('fonts/swiss_721_black_outline-webfont.woff') format('woff'),
+         url('fonts/swiss_721_black_outline-webfont.ttf') format('truetype'),
+         url('fonts/swiss_721_black_outline-webfont.svg#swiss_721black') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'swiss_721black';
+    src: url('fonts/swiss_721_black-webfont.eot');
+    src: url('fonts/swiss_721_black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/swiss_721_black-webfont.woff2') format('woff2'),
+         url('fonts/swiss_721_black-webfont.woff') format('woff'),
+         url('fonts/swiss_721_black-webfont.ttf') format('truetype'),
+         url('fonts/swiss_721_black-webfont.svg#swiss_721black') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.standart{
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+        font-size: 30px;
+        line-height:40px;
+  letter-spacing: 2px;
+height:80px;
+    display: inline-block;
+    text-align: center;
+    padding:10px;
+}
+
+.container {
+  padding: 0;
+  margin: 0;
+  font-family:  'swiss_721black_extend', 'Helvetica Neue', Arial, sans-serif;
+
+
+text-transform: uppercase;
+      letter-spacing: -4px;
+
+}
+
+.line{ font-size: 100px;
+       line-height:100px;
+     display: inline-block;
+        position: relative;
+    margin:3px 0px 0px 0px;
+
+    float:left; 
+    overflow:visible;
+    
+}
+
+.bloc{
+        display: inline-block;
+
+
+        position: relative;
+
+}
+.gauche{
+        float: left;  
+}
+
+.droite{
+        float: right;  
+}
+
+.outline{        
+    font-size: 100px;   
+    line-height:100px;
+    font-family: 'swiss_721bold', 'Helvetica Neue', Arial, sans-serif;
+  margin:-3px 0px 0px 0px;
+         border-bottom: 3px solid black;
+     border-top: 3px solid black;
+}
+
+
+.image{
+    margin:3px 0px 0px 0px;
+    height:100px;
+overflow: visible;
+    width:auto;
+}
+
+
+
+.logo{
+max-height:100px;
+    width:100%;
+    padding:0px 20px;
+    max-width:190px;
+
+ 
+    /*border-left: 3px solid black;
+     border-right: 3px solid black;*/
+
+}
+
+.piece{
+    height:160px;
+    background: transparent;
+    margin:-40px 0;
+    padding:0px 20px;
+    transform: rotate(0deg);
+}
+
+.piece_2{    background: transparent;
+    height:200px;
+
+
+    padding:0px 20px;
+        margin:-63px 0;
+
+    transform: rotate(0deg);
+}
+
+.abs{
+    position: absolute;
+    transform: rotate(-90deg);
+  top:0px;
+    left:0px;
+   
+    
+}
+
+a{
+    text-decoration: none;
+    border-bottom: dotted 3px black;
+    color: black;
+}

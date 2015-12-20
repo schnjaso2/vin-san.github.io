@@ -136,9 +136,9 @@ margin:0px 30px;
 .piece {
 
 
-    height: 159px;
+    height: 165px;
     background: transparent;
-    margin: -30px 0 -100px 0;
+    margin: -32px 0 -100px 0;
     width: auto;
     padding: 0px;
     transform: rotate(0deg);
@@ -232,7 +232,7 @@ header{
     width:100%;
     padding:20px;
 }
-header span:after{
+header{
     clear: both;
 }
 
