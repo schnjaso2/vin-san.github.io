@@ -61,7 +61,7 @@ img {
     padding: 0;
     margin: 0;
     font-family: 'swiss_721black_extend', 'Helvetica Neue', Arial, sans-serif;
-       color:beige;
+       color:Bisque;
     text-transform: uppercase;
     letter-spacing: -4px;
 }
@@ -100,8 +100,9 @@ img {
     font-family: 'swiss_721bold', 'Helvetica Neue', Arial, sans-serif;
     margin: -2px -3px 0px 0px;
             border: transparent solid 2px;
-    border-bottom: 2px solid beige;
-    border-top: 2px solid beige;
+    border-bottom: 2px solid Bisque;
+    border-top: 2px solid Bisque;
+    background-color: black;
 }
 
 .bloc:hover .outline{
@@ -138,10 +139,10 @@ margin:0px 30px;
 
     height: 159px;
     background: transparent;
-    margin: -30px 0 -100px 0;
+    margin: -30px -15px -100px -15px;
     width: auto;
     padding: 0px;
-    transform: rotate(0deg);
+    transform: rotate(23deg);
 }
 
 .piece_2 {
@@ -150,7 +151,7 @@ margin:0px 30px;
     width: auto;
     padding: 0px;
     margin: -50px 0 -120px 0;
-    transform: rotate(0deg);
+    transform: rotate(43deg);
 }
 
 .piece_3 {
@@ -180,7 +181,7 @@ margin:0px 30px;
     line-height: 50px;
     letter-spacing: 2px;
     min-height:100px;
-    border: 2px solid beige;
+    border: 2px solid Bisque;
     display: inline-block;
     text-align: center;
     margin: -2px 0px auto;
@@ -195,7 +196,7 @@ margin:0px 30px;
     line-height: 50px;
     letter-spacing: 2px;
     height:100px;
-    border: 0px solid beige;
+    border: 0px solid Bisque;
     display: inline-block;
     text-align: center;
 
@@ -212,9 +213,9 @@ margin:0px 30px;
 
 a {
     text-decoration: none;
-    border: solid 2px beige;
+    border: solid 2px Bisque;
     font-size:42px;
-    color: beige;
+    color: Bisque;
     display: inline;
     
 }
@@ -225,7 +226,7 @@ a:hover {
 border: coral solid 2px;
     border-left: solid 2px transparent;
       border-right: solid 2px transparent;
-    color: beige;
+    color: Bisque;
 }
 
 header{
@@ -239,6 +240,6 @@ header span:after{
 .lines {
     width: auto;
     display: block;
-    border-bottom: 2px solid beige;
+    border-bottom: 2px solid Bisque;
 }
 
