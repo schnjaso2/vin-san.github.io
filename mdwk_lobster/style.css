@@ -106,8 +106,8 @@ img {
 }
 
 .bloc:hover .outline{
-    color:coral;
-        border: coral solid 2px;
+    color:salmon;
+        border: salmon solid 2px;
 
 }
 
@@ -223,7 +223,7 @@ a {
 
 a:hover {
     text-decoration: none;
-border: coral solid 2px;
+border: salmon solid 2px;
     border-left: solid 2px transparent;
       border-right: solid 2px transparent;
     color: Bisque;
