@@ -1,9 +1,7 @@
-$('.artist').click(function () {
+$('.artist').click(function () { 
     $('.artist').each(function() {
     $(this).removeClass("active"); 
     });
-       $(this).addClass("active"); 
-    
-    
+    $(this).addClass("active"); 
 });
 
