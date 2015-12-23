@@ -77,9 +77,6 @@ img {
 
 }
 
-.bloc:hover .line{
-    color: white;
-}
 
 .bloc {
     display: inline-block;
@@ -99,17 +96,20 @@ img {
     line-height: 100px;
     font-family: 'swiss_721bold', 'Helvetica Neue', Arial, sans-serif;
     margin: -2px -3px 0px 0px;
-            border: black solid 2px;
+
     border-bottom: 2px solid Bisque;
     border-top: 2px solid Bisque;
     background-color: black;
 }
 
 .bloc:hover .outline{
-    color:salmon;
-        border: salmon solid 2px;
 
+       color:salmon;
+         border-bottom: 2px solid Salmon;
+    border-top: 2px solid Salmon;
 }
+
+
 
 
 .image {
@@ -128,7 +128,7 @@ img {
     height: 100%;
     overflow: visible;
     padding: 20px 10px 5px 10px;
-margin:0px 0px;
+margin:0px 15px;
   width: auto;
 
 }
@@ -142,24 +142,64 @@ margin:0px 0px;
     width: auto;
     padding: 0px;
     transform: rotate(23deg);
+    transition: transform 1.5s ease-in-out;
+}
+
+.piece, .piece_2, .piece_3{
+       -webkit-transition-property: -webkit-transform;
+    -webkit-transition-duration: 3s;
+    -moz-transition-property: -moz-transform;
+    -moz-transition-duration: 3s;
+    transition-property: transform;
+    transition-duration: 3s;
+}   
+
+.piece:hover, .piece_2:hover, .piece_3:hover{
+   -webkit-animation-name: rotate; 
+    -webkit-animation-duration: 2s; 
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: rotate; 
+    -moz-animation-duration: 2s; 
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    animation-name: rotate; 
+    animation-duration: 2s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@-webkit-keyframes rotate {
+    from {-webkit-transform: rotate(0deg);}
+    to {-webkit-transform: rotate(360deg);}
+}
+
+@-moz-keyframes rotate {
+    from {-moz-transform: rotate(0deg);}
+    to {-moz-transform: rotate(360deg);}
+}
+
+@keyframes rotate {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
 }
 
 .piece_2 {
+    height: 140px;
     background: transparent;
-    height: 190px;
+    margin: -20px -15px -20px -15px;
     width: auto;
     padding: 0px;
-    margin: -50px 0 -120px 0;
-    transform: rotate(43deg);
+    transform: rotate(-65deg);
 }
 
 .piece_3 {
+    height: 140px;
     background: transparent;
-    height: 125px;
+    margin: -20px -15px -20px -15px;
     width: auto;
     padding: 0px;
-    margin: -15px 0 -0px 0;
-    transform: rotate(0deg);
+    transform: rotate(98deg);
 }
 
 .standart {
