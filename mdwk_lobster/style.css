@@ -154,7 +154,7 @@ img {
 .piece_2,
 .piece_3 {
     border-radius: 50%;
-    background-color: bisque;
+    background-color: black;
     border: 2px Bisque solid;
     -webkit-transition-property: -webkit-transform;
     -webkit-transition-duration: 0.5s;
