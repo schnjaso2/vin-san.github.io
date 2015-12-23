@@ -1,28 +1,26 @@
 html {
     box-sizing: border-box;
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
 }
 
 *,
 *:before,
 *:after {
     box-sizing: inherit;
-    margin:0px;
-    padding:0px;
+    margin: 0px;
+    padding: 0px;
 }
 
 body {
     padding: 0px;
-
     overflow-x: hidden;
     background-color: black;
-        line-height: 45px;
+    line-height: 45px;
 }
 
 img {
     width: 100%;
-
 }
 
 @font-face {
@@ -61,7 +59,7 @@ img {
     padding: 0;
     margin: 0;
     font-family: 'swiss_721black_extend', 'Helvetica Neue', Arial, sans-serif;
-       color:Bisque;
+    color: Bisque;
     text-transform: uppercase;
     letter-spacing: -4px;
 }
@@ -76,9 +74,7 @@ img {
     margin: 2px 0px 0px 0px;
     float: left;
     overflow: visible;
-
 }
-
 
 .bloc {
     display: inline-block;
@@ -100,110 +96,122 @@ img {
     line-height: 96px;
     font-family: 'swiss_721bold', 'Helvetica Neue', Arial, sans-serif;
     margin: -2px -3px 0px 0px;
-background-color: black;
+    background-color: black;
     border-bottom: 2px solid Bisque;
     border-top: 2px solid Bisque;
-
 }
 
-.artist:hover .outline, .active .outline{
-
-       color:salmon;
-         border-bottom: 2px solid Salmon;
+.artist:hover .outline{
+    color: salmon;
+    border-bottom: 2px solid Salmon;
     border-top: 2px solid Salmon;
 }
 
-.artist:hover .piece, .artist:hover .piece_2, .artist:hover .piece_3{
+.active .outline {
+    color: salmon;
+    border-bottom: 2px solid Salmon;
+    border-top: 2px solid Salmon;
+    z-index: 12;
+        position: relative;
+    background-color: transparent;
+}
+
+.artist:hover .piece,
+.artist:hover .piece_2,
+.artist:hover .piece_3 {
     border: 2px Salmon solid;
 }
 
-
-
 .image {
-
-
     height: 96px;
     height: 96px;
     overflow: visible;
     width: auto;
-margin:-2px 0px;
-    overflow:visible;
+    margin: -2px 0px;
+    overflow: visible;
     position: relative;
-
 }
 
 .logo {
     height: 100%;
     overflow: visible;
     padding: 15px 10px 10px 10px;
-margin:-2px 15px -3px 15px;
-  width: auto;
-
+    margin: -2px 15px -3px 15px;
+    width: auto;
 }
 
 .piece {
-
-
     height: 140px;
     background: transparent;
     margin: -20px -15px -20px -15px;
     width: auto;
     padding: 0px;
-    transform: rotate(23deg);
+    transform: rotate(0deg);
     transition: transform 1.5s ease-in-out;
 }
 
-.piece, .piece_2, .piece_3{
+.piece,
+.piece_2,
+.piece_3 {
     border-radius: 50%;
-
+    background-color: bisque;
     border: 2px Bisque solid;
-       -webkit-transition-property: -webkit-transform;
-    -webkit-transition-duration: 3s;
+    -webkit-transition-property: -webkit-transform;
+    -webkit-transition-duration: 0.5s;
     -moz-transition-property: -moz-transform;
-    -moz-transition-duration: 3s;
+    -moz-transition-duration: 0.5s;
     transition-property: transform;
-    transition-duration: 3s;
-        transition: all 0.5s ease;
-}   
+    transition-duration: 0.5s;
+    transition: all 0.5s ease;
+}
 
-
-.active .piece, .active .piece_2, .active .piece_3{
-    
-        padding:120px;
-    height:295px;
-    margin:-98px -93px;
-    
-        border: 2px Salmon solid;
-   -webkit-animation-name: rotate; 
-
-
-
-    -webkit-animation-duration: 2s; 
+.active .piece,
+.active .piece_2,
+.active .piece_3 {
+    padding: 120px;
+    height: 295px;
+    margin: -98px -93px;
+    z-index:7;
+    border: 2px Salmon solid;
+    -webkit-animation-name: rotate;
+    -webkit-animation-duration: 2s;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-timing-function: linear;
-    -moz-animation-name: rotate; 
-    -moz-animation-duration: 2s; 
+    -moz-animation-name: rotate;
+    -moz-animation-duration: 2s;
     -moz-animation-iteration-count: infinite;
     -moz-animation-timing-function: linear;
-    animation-name: rotate; 
-    animation-duration: 2s; 
+    animation-name: rotate;
+    animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
 
 @-webkit-keyframes rotate {
-    from {-webkit-transform: rotate(0deg);}
-    to {-webkit-transform: rotate(360deg);}
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+    }
 }
 
 @-moz-keyframes rotate {
-    from {-moz-transform: rotate(0deg);}
-    to {-moz-transform: rotate(360deg);}
+    from {
+        -moz-transform: rotate(0deg);
+    }
+    to {
+        -moz-transform: rotate(360deg);
+    }
 }
 
 @keyframes rotate {
-    from {transform: rotate(0deg);}
-    to {transform: rotate(360deg);}
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 .piece_2 {
@@ -226,14 +234,13 @@ margin:-2px 15px -3px 15px;
 
 .standart {
     font-family: 'Helvetica Neue', Arial, sans-serif;
-    font-size:39px;
+    font-size: 39px;
     line-height: 50px;
     letter-spacing: 3px;
-
     display: inline-block;
     text-align: center;
     padding: 0px;
-    margin:   -2px 0px;
+    margin: -2px 0px;
 }
 
 .standart_2 {
@@ -241,29 +248,24 @@ margin:-2px 15px -3px 15px;
     font-size: 30px;
     line-height: 50px;
     letter-spacing: 2px;
-    min-height:96px;
-    min-height:96px;
+    min-height: 96px;
+    min-height: 96px;
     border: 2px solid Bisque;
     display: inline-block;
     text-align: center;
     margin: -4px 0px;
-
-
 }
-
 
 .standart_3 {
     font-family: 'Helvetica Neue', Arial, sans-serif;
     font-size: 30px;
     line-height: 50px;
     letter-spacing: 2px;
-    height:96px;
-    height:96px;
+    height: 96px;
+    height: 96px;
     border: 0px solid Bisque;
     display: inline-block;
     text-align: center;
-
-
 }
 
 .abs {
@@ -277,29 +279,25 @@ margin:-2px 15px -3px 15px;
 a {
     text-decoration: none;
     border: solid 2px Bisque;
-    font-size:42px;
+    font-size: 42px;
     color: Bisque;
     display: inline;
-
-    
 }
-
-
 
 a:hover {
     text-decoration: none;
-border: salmon solid 2px;
+    border: salmon solid 2px;
     border-left: solid 2px transparent;
-      border-right: solid 2px transparent;
+    border-right: solid 2px transparent;
     color: Bisque;
-
 }
 
-header{
-    width:100%;
-    padding:20px;
+header {
+    width: 100%;
+    padding: 20px;
 }
-header span:after{
+
+header span:after {
     clear: both;
 }
 
@@ -309,17 +307,15 @@ header span:after{
     border-bottom: 2px solid Bisque;
 }
 
-
-footer{
+footer {
     display: block;
     min-width: 100%;
 }
 
-hr{
-    width:100%;
+hr {
+    width: 100%;
     display: block;
-    clear:both;
+    clear: both;
     border: 2px solid black;
-    margin:-4px 0px;
- 
+    margin: -4px 0px;
 }
