@@ -99,7 +99,7 @@ img {
     line-height: 100px;
     font-family: 'swiss_721bold', 'Helvetica Neue', Arial, sans-serif;
     margin: -2px -3px 0px 0px;
-            border: transparent solid 2px;
+            border: black solid 2px;
     border-bottom: 2px solid Bisque;
     border-top: 2px solid Bisque;
     background-color: black;
@@ -113,8 +113,8 @@ img {
 
 
 .image {
-    margin: 0px 0px 0px 0px;
-
+    margin: 0 auto;
+    margin-top:2px;
     height: 100px;
     overflow: visible;
     width: auto;
@@ -125,21 +125,20 @@ img {
 }
 
 .logo {
-    height: 85%;
-    width: 100%;
+    height: 100%;
+    overflow: visible;
     padding: 20px 10px 5px 10px;
-margin:0px 30px;
+margin:0px 0px;
   width: auto;
-    /*border-left: 2px solid black;
-     border-right: 2px solid black;*/
+
 }
 
 .piece {
 
 
-    height: 159px;
+    height: 140px;
     background: transparent;
-    margin: -30px -15px -100px -15px;
+    margin: -20px -15px -20px -15px;
     width: auto;
     padding: 0px;
     transform: rotate(23deg);
@@ -184,9 +183,9 @@ margin:0px 30px;
     border: 2px solid Bisque;
     display: inline-block;
     text-align: center;
-    margin: -2px 0px auto;
+    margin: -2px 0px;
 
-    
+
 }
 
 
@@ -217,8 +216,10 @@ a {
     font-size:42px;
     color: Bisque;
     display: inline;
+
     
 }
+
 
 
 a:hover {
@@ -227,6 +228,7 @@ border: salmon solid 2px;
     border-left: solid 2px transparent;
       border-right: solid 2px transparent;
     color: Bisque;
+
 }
 
 header{
@@ -243,3 +245,13 @@ header span:after{
     border-bottom: 2px solid Bisque;
 }
 
+
+footer{
+    display: block;
+    min-width: 100%;
+}
+
+hr{
+    clear:both;
+    visibility: hidden;
+}
