@@ -113,7 +113,7 @@ img {
     border-top: 2px solid Salmon;
     z-index: 12;
         position: relative;
-    background-color: transparent;
+
 }
 
 .artist:hover .piece,
