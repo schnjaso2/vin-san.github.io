@@ -106,13 +106,16 @@ background-color: black;
 
 }
 
-.bloc:hover .outline, .active .outline{
+.artist:hover .outline, .active .outline{
 
        color:salmon;
          border-bottom: 2px solid Salmon;
     border-top: 2px solid Salmon;
 }
 
+.artist:hover .piece, .artist:hover .piece_2, .artist:hover .piece_3{
+    border: 2px Salmon solid;
+}
 
 
 
