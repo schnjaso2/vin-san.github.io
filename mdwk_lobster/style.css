@@ -121,7 +121,7 @@ img {
 .logo {
     height: 100%;
     overflow: visible;
-    padding: 15px 10px 10px 10px;
+    padding: 15px 10px 0px 10px;
     margin: -2px 20px -3px 20px;
     width: auto;
 }
@@ -154,7 +154,7 @@ img {
 .active .piece,
 .active .piece_2,
 .active .piece_3 {
-    padding: 120px;
+    padding: 105px;
     height: 295px;
     margin: -98px -93px;
     z-index:7;
