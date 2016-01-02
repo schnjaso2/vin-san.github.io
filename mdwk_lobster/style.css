@@ -91,6 +91,7 @@ img {
     color: salmon;
     border-bottom: 2px solid Salmon;
     border-top: 2px solid Salmon;
+       cursor:default;
 }
 
 .active .outline {
@@ -99,6 +100,7 @@ img {
     border-top: 2px solid Salmon;
     z-index: 12;
         position: relative;
+        
 
 }
 
@@ -106,6 +108,7 @@ img {
 .artist:hover .piece_2,
 .artist:hover .piece_3 {
     border: 2px Salmon solid;
+    
 }
 
 .image {
@@ -118,19 +121,26 @@ img {
     position: relative;
 }
 
+.image .logo{
+
+}
+
 .logo {
     height: 100%;
     overflow: visible;
     padding: 15px 10px 0px 10px;
     margin: -2px 20px -3px 20px;
     width: auto;
+
 }
+
 
 .piece {
     height: 140px;
     background: transparent;
     margin: -20px -15px -20px -15px;
     width: auto;
+            z-index:2;
     padding: 0px;
     transform: rotate(0deg);
     transition: transform 1.5s ease-in-out;
@@ -149,6 +159,7 @@ img {
     transition-property: transform;
     transition-duration: 0.5s;
     transition: all 0.5s ease;
+       cursor:grab;
 }
 
 .active .piece,
